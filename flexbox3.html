@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>flexbox 3</title>
+     <link rel="icon" href="../denisse-leon.jpg">
+     <style>
+          *{
+               margin: 0px;
+               padding: 0px;
+          }
+          #container
+          {
+               border: 2px solid black;
+               margin: 15px;
+               padding: 10px;
+               display: flex;
+               flex-direction: column;
+          }
+          .a1
+          {
+               border: 0px solid red;
+               text-align: center;
+               margin: 10px;
+          }
+          .a2
+          {
+               height: 80px;
+               border: 0px solid orangered;
+               background-color:cadetblue;
+               font-size: 35px;
+               padding-top: 20px;
+          }
+          .a3
+          {
+               height: 30px;
+               background-color:cadetblue;
+               font-size: 25px;
+               padding-top: 10px;
+          }
+          .a4
+          {
+               height: 350px;
+               font-size: 35px;
+               display: flex;
+          }
+          .a4> .d1
+          {
+            flex-grow: 1;
+          }
+          .d2
+          {
+               background-color: cadetblue;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+          .d3
+          {
+               background-color: cadetblue;
+               width: 500px;
+               margin-right: 10px;
+               margin-left: 10px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+          .d4
+          {
+               background-color: cadetblue;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+          }
+          .a5
+          {
+               height: 50px;
+               background-color:cadetblue;
+               font-size: 35px;
+               padding-top: 10px;
+          }
+     </style>
+</head>
+<body>
+     <div id="container">
+          <div class="a1 a2">Header</div>
+          <div class="a1 a3">Navigation Menu</div>
+          <div class="a1 a4">
+               <div class="d1 d2">Content</div>
+               <div class="d1 d3">Main Content</div>
+               <div class="d1 d4">Content</div>
+          </div>
+          <div class="a1 a5">Footer</div>
+     </div>
+</body>
+</html>

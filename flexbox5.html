@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>flexbox 5</title>
+     <link rel="icon" href="../bannar1.jpg">
+     <style>
+          *{
+               margin: 0px;
+               padding: 0px;
+          }
+          #container
+          {
+               border: 0px solid black;
+               margin: 15px;
+               padding: 10px;
+               display: flex;
+               flex-direction: column;
+          }
+          .a1
+          {
+               border: 0px solid red;
+               margin: 10px;
+          }
+          .a2
+          {
+               height: 30px;
+               border: 0px solid orangered;
+               background-color:darkcyan;
+               font-size: 20px;
+               padding: 10px;
+          }
+          .a3
+          {
+               height: 80px;
+               background-color:red;
+               font-size: 25px;
+               padding: 20px;
+          }
+          .a4
+          {
+               height: 350px;
+               font-size: 35px;
+               display: flex;
+          }
+          .a4> .d1
+          {
+            flex-grow: 1;
+          }
+          .d2
+          {
+               background-color: green;
+               margin-right: 10px;
+               padding: 20px;
+               width: 700px;
+          }
+          .d3
+          {
+               background-color:blueviolet;
+               padding: 20px;
+          }
+          .a5
+          {
+               height: 30px;
+               background-color:gray;
+               font-size: 25px;
+               padding: 10px;
+          }
+     </style>
+</head>
+<body>
+     <div id="container">
+          <div class="a1 a2">Header</div>
+          <div class="a1 a3">Hero</div>
+          <div class="a1 a4">
+               <div class="d1 d2">Content</div>
+               <div class="d1 d3">Sidebar</div>
+          </div>
+          <div class="a1 a5">Footer</div>
+     </div>
+</body>
+</html>

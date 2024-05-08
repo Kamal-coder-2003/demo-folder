@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>felxbox1.1</title>
+     <link rel="icon" href="../christiann-koepke.jpg">
+     <style>
+          *{
+               margin: 0px;
+               padding: 0px;
+          }
+          #container
+          {
+               border: 0px solid black;
+               margin: 10px;
+               display: flex;
+               flex-direction: column;
+           }
+          .d
+          {
+               border: 0px solid red;
+               text-align: center;
+               /* margin: 10px; */
+               border-radius: 20px;
+          }
+          .d1
+          {
+               height: 400px;
+               background-color:cyan;
+               font-size: 35px;
+               padding-top: 20px;
+          }
+          .d2
+          {
+            height: 100px;
+            display: flex;
+          }
+          .d2> .a1
+          {
+            /* background-color: #eb5757; */
+            border-radius: 20px;
+            flex-grow: 1;
+            margin: 10px;
+          }
+          .s1
+          {
+               background-color: yellow;
+               font-size: 25px;
+               padding-top: 20px;
+          }
+          .s2
+          {
+               background-color:violet;
+               font-size: 25px;
+               padding-top: 20px;
+          }
+          .d3
+          {
+               background-color: greenyellow;
+               height: 80px;
+               font-size: 35px;
+               padding-top: 20px;
+          }
+          h1
+          {
+               text-align: center;
+          }
+
+     </style>
+</head>
+<body>
+     <h1>Responsing Layout TABLET</h1>
+     <div id="container">
+          <div class="d d1">Header</div>
+          <div class="d d2">
+              <div class="a1 s1">Aside 1</div>
+              <div class="a1 s2">Aside 2</div>
+          </div>
+          <div class="d d3">Footer</div>
+     </div>
+</body>
+</html>
